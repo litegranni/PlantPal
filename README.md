@@ -1,8 +1,9 @@
 
 # 🌿 PlantPal – En växtassistent i molnet!
 
-PlantPal är en skalbar och hög tillgänglig backendapplikation utvecklad i Java med Spring Boot,
-kopplad till både en relationsdatabas (MySQL via AWS RDS) och en NoSQL-lösning (AWS DynamoDB).
+PlantPal är ett hjälpmedel för alla oss som inte vet och glömmer när det är dags för att vattna alla ens växter hemma! Genom att lägga in vilka växter man har och när dom vattnades senast så kan man se när det är dags att vattna nästa gång! Inga fler torra, övervattnade eller ihopskrumpande växter!
+
+PlantPal är en skalbar och hög tillgänglig backendapplikation utvecklad i Java med Spring Boot, kopplad till både en relationsdatabas (MySQL via AWS RDS) och en NoSQL-lösning (AWS DynamoDB).
 Projektet visar förståelse för objektorienterad programmering, REST-arkitektur, datahantering och molninfrastruktur.
 
 ## Innehåller
@@ -65,7 +66,7 @@ PlantPal körs på en EC2-instans och är kopplad till:
 
 ---
 
-## 📂 Projektstruktur (src/main/java)
+##  Projektstruktur (src/main/java)
 ```
 com.example.plantpal
 ├── controllers         # REST controllers
